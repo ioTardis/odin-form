@@ -61,15 +61,18 @@ body {
 .left-picture {
     flex: auto;
     display: flex;
-    width: 25%;
+    width: 30%;
     height: 100vh;
     position: relative;
 }
 
 .right-container {
-    width: 75%;
+    width: 70%;
     height: 100vh;
-    background-color: gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 /* Left picture */
@@ -111,4 +114,49 @@ body {
     position: absolute;
     bottom: 0;
     color: white;
+}
+
+/*Right form */
+
+.text-container {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-container p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-container {
+    width: 100%;
+    flex: 1;
+}
+
+.bottom-container {
+    width: 100%;
+    flex: 1;
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
