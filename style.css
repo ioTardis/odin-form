@@ -182,6 +182,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+input:invalid {
+    border-color: rgb(128, 26, 60);
+    border-width: 3px;
+}
+
+input:valid {
+    border-color: green;
+    border-width: 3px;
+}
+
 .input label {
     font-size: 20px;
     color: #66FCF1;

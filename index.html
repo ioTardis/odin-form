@@ -35,30 +35,30 @@
             <form action="#" class="form">
                 <div class="left">
                     <div class="input">
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name" required>
+                        <label for="first-name">First Name*</label>
+                        <input type="text" name="first-name" id="first-name" required minlength="3" placeholder="Doctor">
                     </div>
                     <div class="input">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required placeholder="ilgallifrey@gmail.com">
                     </div>
                     <div class="input">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <label for="password">Password*</label>
+                        <input type="password" name="password" id="password" required minlength="4">
                     </div>
                 </div>
                 <div class="right">
                     <div class="input">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <label for="last-name">Last Name*</label>
+                        <input type="text" name="last-name" id="last-name" required minlength="2" placeholder="Who">
                     </div>
                     <div class="input">
                         <label for="phone-number">Phone Number</label>
-                        <input type="number" name="phone-number" id="phone-number">
+                        <input type="number" name="phone-number" id="phone-number" placeholder="67833456">
                     </div>
                     <div class="input">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <label for="confirm-password">Confirm Password*</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required minlength="4">
                     </div>
                 </div>
             </form>
